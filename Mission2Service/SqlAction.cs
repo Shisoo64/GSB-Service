@@ -11,7 +11,11 @@ namespace Mission2Service
 	public static class SqlAction
 	{
 
-		// Envoie de requête SQL à la base de donnée
+		/// <summary>
+		/// Envoie de requête SQL à la base de donnée
+		/// </summary>
+		/// <param name="sqlComm">Commande SQL</param>
+		/// <returns></returns>
 		public static DataTable SendSqlCommand(string sqlComm)
 		{
 			DataTable dt = new DataTable();
@@ -37,7 +41,10 @@ namespace Mission2Service
 		}
 
 
-		// Cloturation
+
+		/// <summary>
+		/// Cloturation
+		/// </summary>
 		public static void cl()
 		{
 			// Si l'on se trouve entre le 1er et le 10 du mois :
@@ -55,7 +62,9 @@ namespace Mission2Service
 			}
 		}
 
-		// Remboursement
+		/// <summary>
+		/// Remboursement
+		/// </summary>
 		public static void rb()
 		{
 			// Si l'on se trouve entre le 20 et le 31 du mois :

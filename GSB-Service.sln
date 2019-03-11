@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission2Service", "Mission2
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{F4C2B5A6-D43F-4D7F-BA3D-4F7C956F06ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSB-ServiceTest", "GSB-ServiceTest\GSB-ServiceTest.csproj", "{86F594DD-6419-4A58-9CD1-9B8715D38C91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{11954C55-8268-4614-94F9-ED52AEB0F77E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4C2B5A6-D43F-4D7F-BA3D-4F7C956F06ED}.Debug|Any CPU.ActiveCfg = Debug
 		{F4C2B5A6-D43F-4D7F-BA3D-4F7C956F06ED}.Release|Any CPU.ActiveCfg = Release
+		{86F594DD-6419-4A58-9CD1-9B8715D38C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F594DD-6419-4A58-9CD1-9B8715D38C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F594DD-6419-4A58-9CD1-9B8715D38C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F594DD-6419-4A58-9CD1-9B8715D38C91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

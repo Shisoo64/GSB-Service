@@ -58,7 +58,7 @@ namespace Mission2Service
 		/// <returns></returns>
 		public static string getMoisSuivant(DateTime dateNow)
 		{
-			int moisSuivant = DateTime.Now.Month + 1;
+			int moisSuivant = dateNow.Month + 1;
 			if (moisSuivant > 12)
 			{
 				moisSuivant = 1;
